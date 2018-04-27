@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+  background-color: #F5F5F5;
+  font-family:  'Roboto Condensed', sans-serif;
+}
+nav{
+  background-color: white;
+  height: 16px;
+  box-shadow: 0 0 4px 2px #D5D5D5;
+  padding: 20px;
+}
+nav form,
+nav a{
+  float:left;
+  text-decoration: none;
+}
+nav a:first-child{
+  margin-right: 30px;
+}
+nav a:nth-child(2){
+  margin-right: 12%;
+}
+nav a:nth-child(3){
+  margin-right: 200px;
+}
+nav .fa-youtube-play{
+  margin-right: 5px;
+}
+nav form{
+  width:50%;
+}
+nav input{
+  width:80%;
+  padding: 6px;
+}
+nav input,
+nav button{
+  float:left;
+  margin-top: -6px;
+}
+/*nth-child(n+3)*/
+nav a:nth-child(4),
+nav a:nth-child(5),
+nav a:nth-child(6),
+nav a:nth-child(7){
+  float:right;
+  margin-left: 35px;
+}
+.color-red{
+  color:red;
+}
+.color-grey{
+  color: grey;
+}
+.color-black{
+  color: black;
+  font-weight: 600;
+}
+nav button{
+  padding: 6px;
+}
